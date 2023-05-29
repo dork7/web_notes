@@ -64,4 +64,4 @@ Class implementing an interface should use all the portion of the code.
 DIP is basically the idea that high-level modules/implementations should not depend on lower level modules/implementations
 
 ## Example
-    Payment gateway example -> The basic information should always remain same, ( i.e it should contain all the information ). Payment gateways should have their own classes/objects, which only deals with that specific payment gateways.
+    Payment gateway example -> The basic information should always remain same, ( i.e higher level module should contain all the information ). And then pass the information to payment gateway modules, which will only deal with specific payment methods. 
