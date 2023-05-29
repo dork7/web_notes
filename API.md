@@ -1,6 +1,4 @@
-
-# HTTP
-Hypertext Transfer Protocol -> is a communication protocal. It is used to send and receive webpages and files on the internet.
+# Basic concepts about APIs
 
 # API
 - API stands for Application Programming Interface, API’s communicate through a set of rules/protocols that defines how computers, applications, or machines can talk to each other.
@@ -17,11 +15,11 @@ API management is the process of designing, publishing, documenting and analyzin
 - `Partner APIs:` A developer needs specific rights or licenses to access this type of API because they are not available to the public.
 - `Internal APIs:` Also known as Private APIs, only internal systems expose this type of API.
 
-# API protocols or architectures
-`REST` | `RPC` | `SOAP`
 
 # Rest
     It's architectural style / convention that was created to guide the design and development of the architecture of communication
+    REST works on top of HTTP. Http APIs can also be used but rest api 
+
 
 ## REST API Design Best Practices
 - Use JSON format
@@ -30,6 +28,7 @@ API management is the process of designing, publishing, documenting and analyzin
 - Use Status Codes in Error Handling 
 ``` 
     ( 100 - 199 ) Information
+    ( 200 - 299 ) Success
     ( 300 – 399 ) Redirects
     ( 400 – 499 ) Client-side errors
     ( 500 – 599 ) Server-side errors
@@ -44,10 +43,32 @@ API management is the process of designing, publishing, documenting and analyzin
 - Use lowercase letters in URIs
 - Never use CRUD function names in URIs
 
+# Security in RESTFUL API
+- Rate limiting
+- Sanitation
+- use HTTPS
+
+
+
 
 # Restful API
 An api which fulfil all the constrains of rest api.
-## HTTP v API
+
+# HTTP
+Hypertext Transfer Protocol -> is a communication protocal. It is used to send and receive webpages and files on the internet.
+HyperText Transfer Protocol (HTTP) is a standard with well-defined constraints
+
+## HTTP v REST
+- REST works on top of HTTP.
+- HyperText Transfer Protocol (HTTP) is a standard with well-defined constraints
+- REST APIs support more features than HTTP APIs, while HTTP APIs are designed with minimal features so that they can be offered at a lower price.
+
+# API protocols or architectures
+`REST` | `RPC` | `SOAP`
+
+
+# Security in api
+
 
 
 https://medium.com/@krunalchauhan_/article-worth-reading-on-what-is-an-api-what-is-a-rest-api-and-deep-diving-into-rest-api-fea074dacaed
