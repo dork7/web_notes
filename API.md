@@ -63,12 +63,24 @@ HyperText Transfer Protocol (HTTP) is a standard with well-defined constraints
 - HyperText Transfer Protocol (HTTP) is a standard with well-defined constraints
 - REST APIs support more features than HTTP APIs, while HTTP APIs are designed with minimal features so that they can be offered at a lower price.
 
-# API protocols or architectures
-`REST` | `RPC` | `SOAP`
 
 
 # Security in api
+- Authorization Using JWT
+- Always Use HTTPS
+- Never expose information on URLs
+- Consider OAuth
+- Consider Adding Timestamp in Request
+- Input Parameter Validation
+- Rate Limiting
 
+# API protocols or architectures
+`REST` | `RPC` | `SOAP`
+
+![Alt text](assets/soapVrestVrpc.webp)
+
+# SOAP
+SOAP is an XML-formatted, highly standardized web communication protocol. 
 
 
 https://medium.com/@krunalchauhan_/article-worth-reading-on-what-is-an-api-what-is-a-rest-api-and-deep-diving-into-rest-api-fea074dacaed

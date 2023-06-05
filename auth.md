@@ -6,6 +6,11 @@
     Authorization determines their access rights
 
 ### TYPES
-- Mandatory Access Control (MAC), 
+- Mandatory Access Control (MAC) 
 - Discretionary Access Control (DAC)
 - Role Based Access Control (RABC)
+## Auth types 
+- API keys
+- Basic Auth
+- HMAC 
+- OAuth
