@@ -75,12 +75,10 @@ HyperText Transfer Protocol (HTTP) is a standard with well-defined constraints
 - Rate Limiting
 
 # API protocols or architectures
-`REST` | `RPC` | `SOAP`
+`REST` | `RPC` | `SOAP` | `GraphQL`
 
 ![Alt text](assets/soapVrestVrpc.webp)
 
-# SOAP
-SOAP is an XML-formatted, highly standardized web communication protocol. 
 
 
 https://medium.com/@krunalchauhan_/article-worth-reading-on-what-is-an-api-what-is-a-rest-api-and-deep-diving-into-rest-api-fea074dacaed
