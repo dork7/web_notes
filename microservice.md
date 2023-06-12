@@ -71,10 +71,10 @@ API gateway/load balancer needs to know what is the IP address of the service th
 Service register DB is the service which contain all the information of the instances, i.e instance name, ip address.
 
 ## Self Registry:
-    When a service container comes up,it will register itself, in the registry service. Every X number of time, the services will update their address in the SR microservice.
+When a service container comes up,it will register itself, in the registry service. Every X number of time, the services will update their address in the SR microservice.
 
 ## Third party:
-    SR service will be listening to the events in cluster, whenever their is update in cluster, it will get the address of that service. 
+Service Registry service will be listening to the events in cluster, whenever their is update in cluster, it will get the address of that service. 
 
 Service registry can also talk to load balancer to increase the instances.
 
