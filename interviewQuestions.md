@@ -1,6 +1,7 @@
 Tasks
 
 Interview
+- [ ] Worker thread in nodejs Enhancing Node JS Server Performance: A Deep Dive into Worker Threads 
 - [ ] Microservice patterns
 - [ ] Async programming issues and workarounds
 - [ ] Component composition
@@ -50,5 +51,18 @@ Interview
 - [ ] Auth methods ( OAuth2 )
 - [ ] What are methods of authentication and auth
 - [ ] How to create NPM package
-- [ ] Disadvantages of JWT
-- [ ] Disadvantages of indexing in mongoldb
+- [ ] how do we revoke a JWT token
+- [x] Disadvantages of JWT
+```
+- Token Size
+- Stateless Nature
+- Increased Payload Exposure
+```
+- [ x] Disadvantages of indexing in mongoldb
+```
+- Increased Storage Space:  Indexes require additional storage space to store the index data structure.  
+- Increased Write Overhead: Indexes need to be updated whenever a document is inserted, updated, or deleted.
+- Index Maintenance: As data is modified in MongoDB, indexes need to be continually updated to reflect these changes.
+- Indexes May Not Always Improve Performance:
+- Increased Complexity:
+```
