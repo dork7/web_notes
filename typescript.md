@@ -1,3 +1,5 @@
+@ https://typescript-exercises.github.io/#exercise=5&file=%2Findex.ts
+
 # Basic concepts
 ### Type inference
 TS automatically infer the variable even if it's no set to any type.
@@ -49,6 +51,7 @@ interface VIPClient extends Client {
 type VIPClient = Client & {benefits: string[]}; // Client is a type
 ```
 
+## Omit & Partial in TS?
 
 # Questions
 
