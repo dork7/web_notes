@@ -2,47 +2,47 @@
 
 ## Version control system
 
-### ```Git init ```
+### ```git init ```
 > initialize the repo 
 
-## ```Git clone <http-url>```
+## ```git clone <http-url>```
 >Used to clone a repository into your local 
 
-## ```Git add .```
+## ```git add .```
  >Add changes into stage
   
-## ```Git commit -m “your message”```
+## ```git commit -m “your message”```
 >Creates a snapshot in your timeline of git repo, for the files which are in stage
 
-## ```Git pull origin <branchname>```
+## ```git pull origin <branchname>```
 >Get the latest update from the remote repo
 
-## ```Git push origin <branchname>```
+## ```git push origin <branchname>```
 >Upload your code into remote repo
 
-## ```Git fetch```
+## ```git fetch```
 >get the latest state of the repo
 
-## ```Git log```
+## ```git log```
 >To check the logs of the commits
 
-## ```Git checkout -b <branchname>```
+## ```git checkout -b <branchname>```
 >Change the branch, create a branch if doesn’t exist
 
-## ```Git switch <branchname>```
+## ```git switch <branchname>```
 >Change the branch
 
-## ```Git branch```
+## ```git branch```
 >List the branches
 
-## ```Git merge```
+## ```git merge```
 >Merge the changes of two branches
 
-## ```Git fork```
->Create a copy of repo (of some other user) into your GitHub
+## ```git fork```
+>Create a copy of repo (of some other user) into your gitHub
 
-## ```Git tag```
+## ```git tag```
 >Reference to a specific point of a project in history
 
-## ```Git pull request```
+## ```git pull request```
  >created on github to merge your branch's changes into the main branch
