@@ -2,7 +2,7 @@
 
 # Version control system
 
-## Git init
+`## Git init`
 	initialize the repo 
 
 ## Git clone <http-url>
