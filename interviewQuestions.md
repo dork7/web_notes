@@ -66,3 +66,29 @@ Interview
 - Indexes May Not Always Improve Performance:
 - Increased Complexity:
 ```
+
+
+ [] What is Lifting State Up in React?
+[] What is React context?
+[] What are different ways to add CSS in your app?
+[] What is Hot Module Replacement?
+ [] What is the use of Parcel, Vite, Webpack?
+[] How does create-react-app work?
+
+[] What is Tree Shaking?
+[] Difference b/w dependency and devDependency
+[] What is npx and npm?
+[] Difference b/w package .json and package-lock .json
+[] Difference between console .log(<HeaderComponent/>) and console .log(HeaderComponent());
+
+[] What is React.Fragment?
+[] What is the purpose of dependency array in useEffect? What is the difference when it is used and when it is not used?
+[] What if 2 components are given will the state change in one component will effect the other component’s state (child)?
+[] What is the use of return in useEffect ?
+[] Difference b/w client-side routing and server-side routing?
+
+[] Explain the concept of code splitting and its benefits in React.
+[] How does React handle routing and navigation?
+[] What are higher-order components (HOC) in React?
+[] What are controlled and uncontrolled components?
+[] Explain the concept of reconciliation in React.
